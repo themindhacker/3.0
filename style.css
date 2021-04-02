@@ -1,0 +1,147 @@
+		::-webkit-scrollbar-thumb {
+background: #ff6d00;
+}
+::-webkit-scrollbar-track {
+background: #fff;
+}
+::-webkit-scrollbar {
+width: 5px;
+}
+body {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background: #fff;
+}
+*,
+body,
+html {
+box-sizing: border-box;
+}
+body,
+html {
+padding: 0;
+margin: 0;
+height: 100%;
+}
+body {
+background: #fff;
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+}
+main{
+max-width: 900px;
+margin: 0 auto;
+}
+p {
+line-height: 1.3em;
+}
+header {
+text-align: center;
+background: #1ac117;
+padding: 7px;
+color: #fff;
+display: inherit;
+text-decoration: none;
+font-size: 24px;
+}
+header a {
+color: #fff;
+}
+p {
+line-height: 1.4;
+}
+a {
+text-decoration: none;
+color: #ff6d00;
+}
+a:hover {
+text-decoration: underline;
+text-decoration-style: wavy;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: Nunito, sans-serif;
+font-weight: 600;
+}
+footer {
+background-color: #000;
+color: #fff;
+text-align: center;
+padding: 32px;
+}
+button {
+background-color: #ff6d00;
+color: #fff;
+border: none;
+text-transform: uppercase;
+padding: 12px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+button:hover {
+background-color: #fff;
+color: #000;
+border: 2px solid #ff6d00;
+}
+table {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+td,
+th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+tr:hover {
+background-color: #ddd;
+}
+th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #ff6d00;
+color: #fff;
+}
+@media only screen and (max-width: 600px) {
+.trick {
+text-align: center;
+}
+main{
+margin: 5px;
+}
+}
+@media only screen and (min-width: 600px) {
+.trick {
+display: none;
+}
+}
+#countdowntimer {
+font-weight: 700;
+font-size: 16px;
+}
+.dis {
+background-color: #e8e7fd;
+color: #ff6d00;
+border: 1px solid #ff6d00;
+padding: 3px;
+margin: 5px;
+}
+.prathyoush {
+text-align: center;
+}
