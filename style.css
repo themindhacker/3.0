@@ -36,6 +36,7 @@ p {
 line-height: 1.3em;
 }
 header {
+  font-weight: 600;
 text-align: center;
 background: #1ac117;
 padding: 7px;
